@@ -5,29 +5,33 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>HiHome - אתר נדל"ן חכם</title>
-        <meta name="description" content="מצא את הבית שלך בקלות עם HiHome" />
+        <title>HiHome - מצא בית בקלות</title>
+        <meta name="description" content="HiHome - פלטפורמה חכמה ואמינה לנדל"ן בישראל" />
       </Head>
       <div style={{
-        background: 'linear-gradient(to right, #f2f2f2, #ffffff)',
-        height: '100vh',
-        textAlign: 'center',
-        paddingTop: '15vh'
+        background: 'linear-gradient(to right, #f0f4f8, #ffffff)',
+        minHeight: '100vh',
+        padding: '5vh 2rem',
+        fontFamily: 'sans-serif',
+        direction: 'rtl',
+        textAlign: 'right'
       }}>
-        <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>ברוכים הבאים ל-HiHome</h1>
-        <p style={{ fontSize: '1.25rem' }}>הפלטפורמה הכי נוחה בישראל למציאת נכסים</p>
-        <div style={{ marginTop: '2rem' }}>
-          <input type="text" placeholder="הקלד מיקום, עיר או אזור..." style={{
-            padding: '12px 20px',
+        <h1 style={{ fontSize: '2.5rem', color: '#1e3a8a' }}>ברוכים הבאים ל-HiHome</h1>
+        <p style={{ fontSize: '1.2rem', color: '#475569' }}>
+          פורטל נדל"ן חדשני, אמין ומותאם לשוק הישראלי.
+        </p>
+        <div style={{ margin: '2rem 0' }}>
+          <input type="text" placeholder="הקלד עיר, שכונה או רחוב..." style={{
+            padding: '1rem',
             fontSize: '1rem',
-            borderRadius: '12px',
-            border: '1px solid #ccc',
-            width: '60%',
-            maxWidth: '400px'
+            width: '100%',
+            maxWidth: '500px',
+            border: '1px solid #cbd5e1',
+            borderRadius: '8px'
           }} />
         </div>
-        <div style={{ marginTop: '3rem' }}>
-          <img src="/mock-home.png" width="300" />
+        <div>
+          <img src="/realestate1.png" alt="תמונה של פרויקט נדל"ן" width="400" />
         </div>
       </div>
     </>
