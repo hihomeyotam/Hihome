@@ -9,7 +9,7 @@ export default function Home() {
         <meta name="description" content="הפורטל החדשני ביותר לנדל"ן בישראל" />
       </Head>
       <div style={{
-        background: 'url(/bg-project.jpg) no-repeat center center fixed',
+        background: 'url(/bgproject.jpg) no-repeat center center fixed',
         backgroundSize: 'cover',
         minHeight: '100vh',
         fontFamily: 'sans-serif',
